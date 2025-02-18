@@ -8,7 +8,6 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.x-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0.x-blue)
 ![ARFF2Pandas](https://img.shields.io/badge/arff2pandas-0.x-blue)
-![License](https://img.shields.io/github/license/yourusername/ecg-anomaly-detection)
 
 ## Overview
 
