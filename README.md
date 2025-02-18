@@ -41,14 +41,14 @@ pip install torch pandas numpy matplotlib seaborn scikit-learn arff2pandas
 ```
 
 ## Model Description
-##Architecture
+## Architecture
 The model is an autoencoder with the following components:
 
 - **Encoder:** The encoder uses two LSTM layers to compress the input time series data into a lower-dimensional representation.
 - **Decoder:** The decoder reconstructs the input data from the compressed representation using two more LSTM layers.
 - **Reconstruction Loss:** The model minimizes L1 loss to reduce the error between the input and reconstructed sequences.
 
-##Code Overview
+## Code Overview
 
 - **Data Preprocessing:** Data is loaded from ARFF files, cleaned, and split into normal and anomaly examples.
 - **Model Training:** The model is trained on normal ECG data, and its performance is validated using a separate validation set.
